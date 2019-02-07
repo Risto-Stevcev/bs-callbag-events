@@ -1,5 +1,5 @@
 {
-  "name": "bs-callbag-events",
+  "name": "@ristostevcev/bs-callbag-events",
   "version": "0.1.0",
   "description": "Callbag event streams for declaredom",
   "repository": {
