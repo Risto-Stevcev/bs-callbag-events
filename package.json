@@ -1,0 +1,32 @@
+{
+  "name": "bs-callbag-events",
+  "version": "0.1.0",
+  "description": "Callbag event streams for declaredom",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-callbag-events.git"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-callbag-events",
+  "bugs": "https://github.com/Risto-Stevcev/bs-callbag-events/issues",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "example": "parcel example/example.html"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@ristostevcev/bs-callbag-for-each": "^1.0.0",
+    "bs-platform": "^4.0.7",
+    "bs-webapi": "^0.13.2",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag-from-event": "^1.2.0",
+    "@ristostevcev/bs-declaredom": "^0.1.1"
+  }
+}

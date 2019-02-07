@@ -1,0 +1,29 @@
+{
+  "name": "bs-callbag-events",
+  "version": "0.1.0",
+  "sources": [{
+    "dir" : "src",
+    "subdirs" : true
+  }, {
+    "dir" : "example",
+    "type": "dev"
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag-from-event",
+    "@ristostevcev/bs-declaredom"
+  ],
+  "bs-dev-dependencies": [
+    "@ristostevcev/bs-callbag-for-each",
+    "bs-webapi"
+  ],
+  "warnings": {
+    "error" : "+101+25+8+9+27"
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}
