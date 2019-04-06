@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@ristostevcev/bs-callbag-from-event": "^1.2.0",
-    "@ristostevcev/bs-declaredom": "^0.1.1"
+    "@ristostevcev/bs-declaredom": "^1.0.2"
   }
 }
